@@ -1,0 +1,90 @@
+/* Write your code here. */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  background-size: cover;
+  height: 100vh;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+  }
+}
+
+.letters-calculator-img {
+  height: 250px;
+  width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .image-container {
+    order: 1;
+    width: 350px;
+  }
+  .letters-calculator-img {
+    height: 350px;
+    width: 400px;
+  }
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  h1 {
+    text-align: left;
+  }
+}
+label {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+input {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  height: 45px;
+  width: 300px;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 10px;
+  outline: none;
+  padding-left: 10px;
+}
+.char-count {
+  width: 300px;
+  height: 75px;
+  color: #219a6f;
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-size: 30px;
+  font-family: 'roboto';
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
